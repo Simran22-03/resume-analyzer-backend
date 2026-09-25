@@ -42,7 +42,9 @@ class LoginView(APIView):
 
         if not email or not password:
             return Response(
-                {"message": "Email and password are required."},
+                {
+                    "message": "Email and password are required."
+                },
                 status=status.HTTP_400_BAD_REQUEST,
             )
 
@@ -54,7 +56,9 @@ class LoginView(APIView):
 
         if user is None:
             return Response(
-                {"message": "Invalid email or password."},
+                {
+                    "message": "Invalid email or password."
+                },
                 status=status.HTTP_401_UNAUTHORIZED,
             )
 

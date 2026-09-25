@@ -21,3 +21,4 @@ media/
 .idea/
 
 *.log
+resumes/*.pdf

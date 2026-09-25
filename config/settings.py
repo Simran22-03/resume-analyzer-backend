@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     "accounts",
     "dashboard",
     "resume_builder",
+    "interview_prep",
+    "settings_app",
 ]
 
 
